@@ -1,5 +1,6 @@
 # tsprfx
-A small program that takes a piped text stream and prefix every line with localtime.
+A small program that takes a piped text stream and prefix every line with localtime.<br><br>
+Just simply compile with:<br>
 
 ```gcc -o tsprfx tsprfx.c```
 
