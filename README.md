@@ -4,7 +4,7 @@ Just simply compile with:<br>
 
 ```gcc -o tsprfx tsprfx.c```
 
-I used this to stamp time on snmpbulkwalk output for later processing, but wanted to keep timestamp from the get moment.<br><br>
+I used this to stamp time on snmpbulkwalk output for later processing, but wanted to keep timestamp close to the get moment.<br><br>
 Example:<br>
 ```
  snmpbulkwalk -Ot -v2c -cxxxx host 1.3.6.1.2.1.31.1.1.1 | tsprfx | /bin/gzip -c > saveforlaterprocess
